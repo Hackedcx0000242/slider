@@ -1,0 +1,62 @@
+body {
+  background-image: url("https://picsum.photos/1600/900");
+  /* background-size: cover; */
+
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+  margin-top: 95px;
+  /* border: 1px solid red; */
+  height: 80%;
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+p {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.frame {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.sder {
+  display: flex;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.img {
+  width: 100%;
+  /* border: 1px solid red; */
+  object-fit: cover;
+  height: 100%;
+}
+.bottom {
+  display: flex;
+  gap: 30px;
+}
+.button {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transition: all 1s ease;
+  cursor: pointer;
+}
